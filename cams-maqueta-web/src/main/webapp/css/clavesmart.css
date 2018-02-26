@@ -1,0 +1,310 @@
+@CHARSET "ISO-8859-1";
+
+#ValidacionToken{
+	font-family: Ubuntu;
+	font-size: 14px;
+	line-height: 16px;
+	color: #535353;
+	font-weight: 300;
+}
+
+#ValidacionToken .title{
+	font-weight: 300;
+	color: #333333;
+}
+
+#ValidacionToken .title-header{
+	color: #333333;	
+	font-family: Helvetica;	
+	font-size: 18px;	
+	line-height: 22px;
+}
+
+#ValidacionToken p {
+    margin: auto 0px;
+    margin-bottom: 5px;
+}
+
+#ValidacionToken .m-bottom {
+    margin-bottom: 25px;
+}
+
+#ValidacionToken .m-bottom2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#ValidacionToken .m-bottom-49 {
+    margin-bottom: 49px;
+}
+
+#ValidacionToken.backModal, #ValidacionToken .backModal{
+    background: #666;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#ValidacionToken .backModal{
+    position: fixed;
+    top: 0px;
+}
+
+#ValidacionToken .mdlValidacionToken {
+    width: 324px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: calc(50% - 335px);
+    padding: 0px 78px;
+    padding-top: 48px;
+}
+
+#ValidacionToken .mdlConfigSmart{
+	
+}
+
+#ValidacionToken .configSmart{
+    width: 324px;
+    background-color: #FFFFFF;
+    padding: 0px 78px;
+    padding-top: 48px;
+	margin: 0px auto;
+}
+
+#ValidacionToken .mdlSendKeySmart {
+    background: #fff;
+    padding: 40px;
+    width: calc(100% - 190px);
+    height: calc(100% - 190px);
+}
+
+#ValidacionToken .hidden{
+	display: none;
+}
+
+#ValidacionToken .text-center{
+	text-align: center;
+}
+
+#ValidacionToken .text-bold {
+    font-weight: 600;
+}
+
+#ValidacionToken .bkg-red{
+	background: rgb(220, 41, 30);
+}
+
+#ValidacionToken .bkg-white{
+	background: white;
+	color: rgb(220, 41, 30);
+}
+
+#ValidacionToken .text-white{
+	color: white;
+}
+
+#ValidacionToken .text-link{
+	color: #3593C1;
+	font-family: Roboto;
+}
+
+#ValidacionToken .footer-link{
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#ValidacionToken .btn{
+	height: 40px;
+	width: 288px;
+	border-radius: 4px;
+	background-color: #D81E05;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+#ValidacionToken .btn-white{
+	background-color: white;
+	color: #D81E05;
+	border: 1px solid #D81E05;
+}
+
+#ValidacionToken input[type="radio"] {
+    display:none;
+}
+
+#ValidacionToken input[type="radio"] + label {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#ValidacionToken input[type="radio"]:checked + label{
+	border: 1px solid #087BB4;
+}
+
+#ValidacionToken input[type="radio"]:checked + label:before{
+	position: absolute;
+    width: 12px;
+    height: 12px;
+	background-color: #087bb4;
+	color: white;
+    margin-left: 2px;
+    margin-top: 2px;
+    content: ".";
+    border-radius: 6px;
+}
+
+#ValidacionToken input[type="checkbox"] {
+    display:none;
+}
+
+#ValidacionToken input[type="checkbox"] + label {
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background: #fff;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    transform: translate(0,4px);
+    font-weight: bold;
+}
+
+#ValidacionToken input[type="checkbox"]:checked + label{
+	background-color: #087bb4;
+	color: white;
+}
+
+#ValidacionToken input[type="checkbox"]:checked + label:after {
+    position: absolute;
+    width: 16px;
+    top: 6;
+    left: 50%;
+    margin-left: -5px;
+    content: " \2713";
+}
+
+#ValidacionToken input[type="text"],#ValidacionToken input[type="password"]{
+	box-sizing: border-box;
+	height: 40px;
+	width: 328px;
+	border: 1px solid rgba(0,0,0,0.25);
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	font-family: "Lucida Grande";
+	font-size: 16px;
+	line-height: 18px;
+	padding: 0px 16px;
+}
+
+#ValidacionToken .ic{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	transform: translate(0,3px);
+	margin-right: 5px;
+}
+
+#ValidacionToken .ic-excl{
+    background: url(../imagenes/clavesmart/excl.png);
+}
+
+#ValidacionToken button:disabled{
+	background-color: #EB8E82;
+}
+
+#ValidacionToken .layer-radio {
+    border: 1px solid black;
+    display: inline-flex;
+    width: 100%;
+    height: 71px;
+	border: 1px solid rgba(0,0,0,0.15);	
+    border-radius: 4px;
+}
+
+#ValidacionToken .layer-radio .seg-1,
+#ValidacionToken .layer-radio .seg-2{
+	opacity: 0.5;
+}
+
+#ValidacionToken .text-inactive,
+#ValidacionToken .layer-radio .seg-3 a.text-inactive{
+	opacity: 0.5;
+	color: #949494;
+}
+
+#ValidacionToken .layer-radio .seg-3 a{
+	color: #087BB4;
+}
+
+#ValidacionToken .layer-radio.active{
+    border: 1px solid rgba(8,123,180,0.4);
+}
+
+#ValidacionToken .layer-radio .seg-1 {
+    width: 17px;
+    margin: 26.5px 11.5px;
+}
+
+#ValidacionToken .layer-radio .seg-2 {
+    width: 200px;
+    margin: 16px 11.5px;
+}
+
+#ValidacionToken .layer-radio .seg-3 {
+    width: 71px;
+    text-align: right;
+    margin: 26.5px 11.5px;
+}
+
+#ValidacionToken  .layer-radio.active .seg-1,
+#ValidacionToken  .layer-radio.active .seg-2{
+    opacity: 1.0;
+}
+
+#ValidacionToken .titulo_verifica {
+	color: #333333;
+	font-family: Ubuntu;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+}
+
+#ValidacionToken .cuerpo_verifica {	
+	color: #333333;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+
+#ValidacionToken .btn_verificaR {	
+	box-sizing: border-box;
+	height: 41px;
+	width: 129px;
+	border: 1px solid #D81E05;
+	border-radius: 4px;
+}
+
+#ValidacionToken .btn_verificaL {
+	height: 40px;
+	width: 128px;
+}
+
+#ValidacionToken .cuerpo_justify{
+	font-family: Ubuntu;
+	font-size: 14px;
+	line-height: 16px;
+	color: #535353;
+	font-weight: 300;
+	text-align: justify;
+}
+
+#ValidacionToken .m-bottom-79 {
+    margin-bottom: 79px;
+}

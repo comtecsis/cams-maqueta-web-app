@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('fontsco.css');
+
+
+/* Body */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,   form, label, legend, table {
+		margin: 0; padding: 0; border: 0;   }
+body { font-family: 'scotiaReg', calibri, Helvetica; color: #65707b;  }
+img{ text-decoration:none; border:0px;  }		
+.clear{clear: both;}	
+ul { margin: 0; }
+.sapcer{ padding-bottom:10px; padding-top:10px;}
+
+
+/* #Typography
+================================================== */
+
+	h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 32px; line-height: 28px; margin-bottom: 10px; }
+	h2 { font-size: 26px; line-height: 36px; margin-bottom: 10px; margin-top:10px; color:#0083A9;  }
+	h3 {
+	font-size: 22px;
+	line-height: 34px;
+	margin-bottom: 8px;
+}
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; margin-bottom: 5px; }
+	h6 { font-size: 14px; line-height: 21px; }
+ 
+	p { margin:  color:#666e74; font-family: 'scotiaReg', calibri, Helvetica; }
+	p img { margin: 0; }
+ 	
+	
+
+ /* #Links
+================================================== */
+
+	a, a:visited { color: #0082AB; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #00617D; }
+	p a, p a:visited { line-height: inherit; }
+	a:active { outline:none; opacity: 0.75; }
+	
+	
+	
+#wrapper{
+	width: 680px;
+	height: 520px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+	
+ 
+.cuerpo{
+	width:100%;
+	height:254px;
+}	
+	
+ 	
+.fond2-demo2b p{
+	margin-top:0px;
+	padding-top:0px;
+    font-family: 'scotiaReg', calibri, Helvetica;
+	width:230px;
+	font-size:14px;
+	color:#666;
+	margin-left:390px;
+}	
+		
+	
+.fond3-demo2b p{
+	margin-top:0px;
+	padding-top:10px;
+	width:230px;
+	font-size:14px;
+	color:#888834;
+	margin-left:390px;}				
+	
+	
+.fond4-demo2b a img{
+	margin-left:420px;
+	margin-top:5px;}				
+	
+	
+.fond1-demo2c p{
+	margin-top:83px;
+	padding-top:2px;
+	width:250px;
+	font-size:15px;
+	color:#666;
+	margin-left:380px;}	
+		
+	
+.fond2-demo2c p{
+	font-family: 'scotiaReg', calibri, Helvetica;
+	margin-top:15px;
+	padding-top:5px;
+	width:250px;
+	font-size:14px;
+	color:#666;
+	margin-left:380px;}			
+	
+	
+.fond3-demo2c p{
+	margin-top:0px;
+	text-align:center;
+	padding-top:10px;
+	width:250px;
+	font-size:14px;
+	color:#666;
+	margin-left:380px;}	
+	
+.text-precio{font-size:28px;line-height:35px;}
+
+
+.fond4-demo2c img{margin-left:5px;padding-top:5px;}		
+
+	
+.fond2-demo2d p{
+	margin-top:99px;
+	padding-top:2px;
+	width:250px;
+	font-size:15px;
+	color:#666;
+	margin-left:380px;}
+	
+	
+.fond3-demo2d p{
+	margin-top:19px;
+	padding-top:0px;
+	width:250px;
+	font-size:14px;
+	color:#666;
+	margin-left:379px;}		
+	
+
+.fond4-demo2d p{
+	margin-top:0px;
+	padding-top:0px;
+	width:250px;
+	font-size:14px;
+	color:#666;
+	margin-left:380px;}	
+	
+	
+.fond5-demo2d img{
+	margin-left:420px;
+	cursor:pointer;}					
+
+	
+.fond1-demo2e p{
+	text-align:justify;
+	margin-top:0px;
+	padding-top:45px;
+	font-family: 'scotiaReg', calibri, Helvetica;
+	width:210px;
+	font-size:14px;
+	color:#666;
+	margin-left:415px;}		
+	
+
+.fon5-demo2e img{
+		margin-left:5px;}	
+	
+	
+.formulario{
+	width:190px;
+	font-size:13px;
+	line-height:12px;
+	color: #666666;
+	padding-top: 5px;
+}	
+						
+	
+/* #Forms
+================================================== */
+
+	form {   margin:0px; padding:0px;}
+ 	input,select,textarea { font-family: 'scotiaReg', calibri, Helvetica; font-size: 13px; }
+	
+	select{ width:180px; }
+
+ 
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+		border: 1px solid #999; padding: 3px 3px; margin: 0; color: #555; background: #fdfdfd;
+ }
+ 
+ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+		border: 1px solid #aaa; color: #444; background: #fff;
+ 
+}
+
+label, legend { display: block; font-size: 13px;  }
+.control-group {margin-top: 5px;}
+.control-label {
+	float: left;
+	width: 240px;
+	padding-top: 5px;
+	text-align: right;
+	padding-right: 5px;
+}
+.help-block { display: block;   font-size:10px;}
+
+.Terminos { display: block;  margin-bottom: 10px; font-size:11px; margin-left:375px;}
+	
+.label-name {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.label-select { padding-bottom: 3px;}
+
+.label-form1 {
+	padding-bottom: 0px;
+	color: #949ca1;
+	height: 50px;
+}
+
+.label-form {
+	height: auto; 
+	color: rgb(255, 255, 255); 
+	padding-bottom: 15px;
+}
+
+.label-sep {
+	padding-bottom: 5px;
+	height: 52px;
+	color: #FFF;
+}
+
+	
+/***  LO NUEVO 
+================================================== */
+
+.box_login    {background: url(../../../../imagenes/promociones/institucional/img/box_login.png) 0px 0px no-repeat; width: 251px; padding-bottom: 15px; padding-top: 8px;  overflow: hidden; position: absolute; right: 15px; bottom: 25px; }
+.box_content  {background: url(../../../../imagenes/promociones/institucional/img/box_int.png)   0px 0px no-repeat; width: 240px; padding: 80px 20px  0  28px; overflow: hidden; position: absolute; right: 15px; top: 75px; height: 351px; }
+.box_content2 {background: url(../../../../imagenes/promociones/institucional/img/boxg.png)      0px 0px no-repeat; width: 240px; padding: 80px 20px 0px 28px; overflow: hidden; position: absolute; right: 15px; top: 35px; height: 411px; }
+.formu        {width: 180px; margin: 0 auto;}
+.sup_cont     {height: 160px;}
+.cont_sup     {height: auto; padding-bottom: 5px;}
+.listado      {width: 152px; margin: 0 auto; display: block;}
+.txtnue       {font-family: 'scotiaReg', calibri, Helvetica; width:240px;font-size:14px; color:#666666 !important;}	
+.txtnue span  { color: #8b58a3; font-weight: bold; font-size: 18px;}
+.txtnue3      {margin:0 0 15px 0; padding:0 !important; font-family: 'scotiaReg', calibri, Helvetica; font-size:14px; color:#8b58a2 !important;}
+.enla         {width: 250px; padding-top: 40px;}
+.firma_log    {position: absolute; bottom: 70px; right: 0;}
+
+.enla2        {width: 250px; padding-top: 7px;}
+.firma2_log   {position: absolute; bottom: 12px; right: 0;}
+.contnue      {height: auto; color: rgb(255, 255, 255); overflow: hidden; padding-bottom: 5px;}
+
+.menj         {font-size: 14px; color: #949ca1 !important; font-weight: normal !important; margin: 10px 0 0 0;}
+.promocion    {font-size: 16px !important; color: #949ca1 !important; padding: 0 !important}
+.term2        {font-size: 13px !important; text-align: justify; color: #949ca1 !important; width: 230px;}
+
+#wrapper2{
+	width: 680px;
+	height: 520px;
+	margin: 5px auto;position: relative;}	
+
+.label-sep2 {
+	padding: 0 0 20px 0;
+	height: auto;
+	color: #FFF;
+	display: block;overflow: hidden;}
+
+.label-sep3 {
+	padding: 0 0 15px 0;
+	height: auto;
+	color: #FFF;
+	display: block;overflow: hidden;}
+
+.label-sep1 {
+	padding: 0 0 10px 0;
+	height: auto;
+	color: #FFF;
+	display: block;overflow: hidden;}
+	
+.label-left{
+	float: left;
+	padding-right: 6px;}
+
+.pb20{
+	padding-bottom: 20px;}
+
+	
+.term {
+	width: 210px; color: rgb(148, 156, 161) !important; font-size: 11px !important;}
+	
+.check {
+	width: 20px; float: left;}

@@ -1,0 +1,452 @@
+@charset "utf-8";
+/* CSS Document formato de página */
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.eot');
+    src: url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu_bold/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff'),
+         url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.ttf') format('truetype'),
+         url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.svg#UbuntuBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.eot');
+    src: url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu_normal/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff'),
+         url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.ttf') format('truetype'),
+         url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: Ubuntu, Tahoma, Arial;
+	overflow-x:hidden;
+	color: #333;
+	margin: 0px;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+table{
+	  width: 100%;
+	  border-collapse:collapse;  
+	  border: none;
+}
+
+table.tablePinpad{
+	  width: 74px;
+	  height: 100px;
+	  border: 4px;  
+	  margin-left: 10px;
+}
+
+table.tablePinpadAccion{
+	  width: 170px;
+	  height: 97px;	    
+	  margin-left: 5px;
+}
+
+td {  padding: 0;}
+
+td.contenedorPinpad {
+	width: 74px;
+	
+}
+
+td.contenedorToken {
+	width: 80px;
+	border-bottom: 1px solid #E7E7E7;
+	padding-bottom: 5px;
+	
+}
+
+td.notaSeleccionarFile {
+	padding-top: 4px;
+	font-size: 11px; 
+	font-weight: normal; 
+	text-align: left; 
+	border-width: thin;	
+	border-color: #E7E7E7;	
+}
+
+td.notaSeleccionarFilePaddingBottom {
+	padding-top: 4px;
+	font-size: 11px; 
+	font-weight: normal; 
+	text-align: left; 
+	border-width: thin;	
+	border-color: #E7E7E7;
+	padding-right: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #E7E7E7;	
+}
+
+td.top {
+	vertical-align: top;
+	
+}
+td.bottom {
+	vertical-align: bottom;;
+}
+
+a{
+    text-decoration:none;
+}
+
+*:active, *:focus{
+    outline:0;
+}
+
+div.ayuda{
+	padding-top: 10px; 
+	bottom: 10px; 
+	height: 70px
+}
+
+div.contener{
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+div.contener div.cuenta{
+	float: left;
+	width: 75%;
+	background-color: #FFF;
+}
+div.contener div.banner {
+	float: right;
+	width: 25%;
+}
+div.encabezado {
+	width: 850px;
+	position: relative;
+	margin-top: 0px;
+}
+
+div.encabezado div.dataclie{
+	float: left;
+	position: relative;
+	padding-top: 10px;
+	width: 960px;
+	background-color: #999;
+}
+div.encabezado div.dataclie div.bienvenida{
+	float: left;
+	height: 50px;
+	width: 470px;
+	padding-left: 10px;
+	color: #FFF;
+}
+div.encabezado div.dataclie div.carrito{
+	float: left;
+	width: 230px;
+}
+
+div.encabezado div.dataclie div.puntos{
+	float: left;
+	height: 480px;
+	width: 740px;
+	background-image: url(../img/fondo_empresas.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+}
+div.encabezado div.dataclie div.botones {
+	float: left;
+	width: 240px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#columna1{
+	width: 180px;
+	float: left;
+} 
+.operaciones  {
+	font-size: 14px;
+	font-family: UbuntuBold, Tahoma, Arial;
+	background-color: #7777B0;
+	color: #FFF;
+	height: 24px;
+	width: 190px;
+	padding-left: 10px;
+	padding-top: 3px;
+	letter-spacing: -0.08em;
+	font-weight: bold;
+}
+#columna2{
+	width: 590px;
+	float:left;
+} 
+
+#columna3 {
+	float:left;
+	text-align: right;
+	width: 190px;
+}
+#columna4 {
+	width: 780px;
+	float:left;
+	position: relative;
+	padding: 30px;
+}
+
+
+.titulo_seccion {
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DC291E;
+	color: #DC291E;
+	font-family: UbuntuBold, Tahoma, Arial;
+	padding-left: 10px;
+	padding-top: 10px;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.titulo_seccion_normal {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DC291E;
+	color: #DC291E;
+	font-weight: normal;
+	padding-left: 10px;	
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: right;
+}
+
+.titulo_seccion12 {
+	font-size: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DC291E;
+	color: #DC291E;
+	font-family: UbuntuBold, Tahoma, Arial;
+	padding-left: 10px;
+	padding-top: 10px;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+.titulo_productos {
+	font-size: 11px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #7777B0;
+	height: 17px;
+	font-family: UbuntuBold, Tahoma, Arial;
+	padding-top: 6px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/*Aplicar a cartera y todo tr que contenga controles (input, select, etc) */
+.producto_fila {
+	height: 24px;	
+}
+
+.producto_fila18 {
+	height: 18px;
+}
+
+.formulario_fila {
+	height: 24px;
+}
+
+.formulario_fila18 {
+	height: 18px;
+}
+
+.producto_fila:hover {
+	background-color: #FFFFCC;
+}
+
+.producto_fila18:hover {
+	background-color: #FFFFCC;
+}
+
+.producto_fila_titulo {
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #7777B0;
+	height: 24px;
+	display: block;
+	font-family: UbuntuBold, Tahoma, Arial;
+	background-color: #E5E5E5;
+	font-weight: bold;
+}
+
+.producto_fila_seccion {
+	font-size: 11px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #7777B0;
+	height: 23px;
+	display: block;
+	clear: both;
+	font-family: UbuntuBold, Tahoma, Arial;
+	background-color: #FD2C0B;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.producto_checkbox {
+	display: block;
+	float: left;
+	height: 20px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+
+.producto_espaciador {
+	height: 24px;
+	display: block;
+	clear: both;
+}
+
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0px;
+}
+
+#mostrarDiv {
+	float: right;
+	width: 238px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	height: 36px;
+	clear: both;
+}
+
+.marco_datos {
+	font-size: 12px;
+	background-color: #E5E5E5;
+	color: #333;
+	width: Auto;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.tabla_fila {
+	font-size: 11px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #7777B0;
+	height: 23px;
+	display: block;
+	clear: both;
+}
+.tabla_fila_titulo {
+	font-size: 11px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #7777B0;
+	height: 23px;
+	display: block;
+	clear: both;
+	font-family: UbuntuBold, Tahoma, Arial;
+	background-color: #E5E5E5;
+	font-weight: bold;
+}
+
+.tabla_columna {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	height: 17px;
+	padding-top: 6px;
+}
+.imgAyuda{
+	width: 18;
+	height: 18;
+	border: 0;
+	padding-right: 5px;
+	vertical-align:middle;
+
+}
+
+.imgEnviar{
+	width: 91px;
+	height: 30px;
+	border: 0;
+	padding-right: 5px;
+}
+
+.tabla_combo {
+	display: block;
+	float: left;
+	height: 20px;
+	padding-top: 2px;
+}
+.text {
+	font-size: 11px;
+	border: thin solid #CCCCCC;
+	height: 16px;
+	color: #666;
+}
+.textoPie {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.textoPieBig {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: UbuntuBold, Tahoma, Arial;
+	font-weight: bold;
+}
+
+.textCabecera {
+	font-size: 11px;	
+}
+
+.imagenesPerfil {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.imagenesPerfil img[onclick] {
+	cursor: pointer
+}
+
+.imagenesPerfil img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	background: white;
+	z-index: 0;
+}
+
+.imagenesPerfil img.active {
+	z-index: 1;
+}
+
+
+
+

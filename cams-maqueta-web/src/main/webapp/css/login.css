@@ -1,0 +1,113 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.eot');
+    src: url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu_bold/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff'),
+         url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.ttf') format('truetype'),
+         url('Ubuntu_bold/0ihfxul2emph0rojezvrad8e0i7kzn-epnyo3hzu7kw-webfont.svg#UbuntuBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.eot');
+    src: url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu_normal/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff'),
+         url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.ttf') format('truetype'),
+         url('Ubuntu_normal/_xyn3apat_yrrdeqb3sprg-webfont.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: Ubuntu, Tahoma, Arial;
+	overflow-x:hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.TextoBanner {
+	font-size: 12px;
+	color: #333;
+	line-height: 14px;
+	text-align: left;
+}
+.TextoPie {
+	font-size: 10px;
+	color: #333;
+}
+
+
+
+.SubTextoTabla {
+	font-size: 13px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DC291E;
+	color: #DC291E;
+	font-family: UbuntuBold, Tahoma, Arial;
+	height: 32px;
+	width: 179px;
+	text-indent: 5px;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+
+.Numeral_1 {
+	font-size: 48px;
+	color: #D1005D;
+	font-family: UbuntuBold, Tahoma, Arial;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 10px;	
+	font-weight: bold;
+}
+.Numeral_2 {
+	font-size: 48px;
+	color: #A33038;
+	font-family: UbuntuBold, Tahoma, Arial;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.Numeral_3 {
+	font-size: 48px;
+	color: #BF650F;
+	font-family: UbuntuBold, Tahoma, Arial;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+.tablaLogin {
+	width: 600px;
+	height:230px;
+}
+
+.datosUsuario {
+ 	font-family: UbuntuBold, Tahoma, Arial;
+ 	padding-bottom: 3px;
+ 	padding-top: 3px;
+ 	font-weight: bold;
+}
+ 
+.justificado{
+text-align: justify;
+font-size: 12px;
+color: #333;
+line-height: 14px;
+	
+}
+
+table{
+	  width: 100%;
+	  border-collapse:collapse;  
+	  border: none;
+}
+td {  padding: 0;}
+
+

@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+body {
+	background: url(../imagenes/menu/fondo_operaciones.png) repeat-y 0px 0px;
+}
+ 
+   .opcionSeleccionada{
+   background: #999999;
+   border-bottom: 1px dotted #7777B0;
+   color: #FFFFFF;
+	font-size: 11px;
+	font-family: Ubuntu, Tahoma, Arial;
+	vertical-align: middle;
+	width: 189px;
+	padding-top: 6px;
+	padding-left: 10px;
+	display: block;
+	height: 17px;
+	cursor:pointer;
+}
+.itemSeleccionado {
+	border-bottom: 1px dotted #7777B0;
+	border-right: 1px solid #7777B0;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Ubuntu, Tahoma, Arial;
+	vertical-align: middle;
+	width: 189px;
+    background: #999999;
+	padding-top: 4px;
+	padding-left: 10px;
+	display: block;
+	height: 17px;
+	padding-bottom: 2px;
+	cursor:pointer;
+   }
+   
+   .item {
+	border-bottom: 1px dotted #7777B0;
+	border-right: 1px solid #7777B0;
+	color: #666666;
+	font-size: 11px;
+	font-family: Ubuntu, Tahoma, Arial;
+	vertical-align: middle;
+	width: 189px;
+	background: #FFFFFF;
+	padding-top: 4px;
+	padding-left: 10px;
+	display: block;
+	height: 17px;
+	padding-bottom: 2px;
+	cursor:pointer;
+   }
+
+.item:hover {
+	background: #CCCCCC;
+	color: #7777B0;
+   }
+.item:active {
+	background: #7777B0;
+	color: #FFFFFF;
+   }
+   
+   .button1 {
+	border-bottom: 1px dotted #7777B0;
+	color: #7777B0;
+	font-size: 11px;
+	font-family: Ubuntu, Tahoma, Arial;
+	vertical-align: middle;
+	width: 189px;
+	background-color: #FFFFFF;
+	padding-top: 6px;
+	padding-left: 10px;
+	display: block;
+	height: 17px;
+	cursor:pointer;
+   }
+.button1:hover {
+   background: #999999;
+   color: #FFFFFF;
+   }
+.button1:active {
+   background: #7777B0;
+   color: #FFFFFF;   
+   }
+img.derecha10px{
+	padding-right: 10px
+}
+   

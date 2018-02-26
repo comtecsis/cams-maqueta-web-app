@@ -1,0 +1,242 @@
+
+
+.standard {
+	background-color: #DC291E;
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+    behavior: url(/bancaInternet/css/PIE.htc);
+  	color: #fff;
+	font: lighter 11px Ubuntu, Tahoma, Arial;
+	line-height: 1;
+	width: 80px;
+	height: 23px;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+.standardInactivo {
+	background-color: #DC291E;
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+    behavior: url(/bancaInternet/css/PIE.htc);
+  	color: #fff;
+	font: lighter 11px Ubuntu, Tahoma, Arial;
+	line-height: 1;
+	width: 80px;
+	height: 23px;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+.standard:hover {
+    background-color: #990000;
+    cursor: pointer;
+}
+.standard:active {
+    background-color: #7777B0;
+}
+
+.pinpad{	
+	background-color: #666666;
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+  	color: #fff;
+	font: lighter 11px Ubuntu, Tahoma, Arial;
+	line-height: 1;		
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 22px;
+	height:22px;	
+	
+}
+
+.pinpad:hover{
+	background-color: #CC0000;
+    cursor: pointer;
+}
+
+.pinpad:active{
+	background-color: #CC0000;
+}
+
+.pinpadLimpiar{	
+	background-color: #666666;
+	border: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+  	color: #fff;
+	font: lighter 11px Ubuntu, Tahoma, Arial;
+	line-height: 1;		
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 46px;
+	height:22px;	
+	
+}
+
+.pinpadLimpiar:hover{
+	background-color: #CC0000;
+    cursor: pointer;
+}
+
+.pinpadLimpiar:active{
+	background-color: #CC0000;
+}
+
+	
+.large {
+  background-color: #DC291E;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(/bancaInternet/css/PIE.htc);	
+  color: #fff;
+  font: lighter 11px Ubuntu, Tahoma, Arial;
+  line-height: 1;
+  padding: 5px 0;
+  width: 140px;
+  height: 23px;
+}
+.largeInactivo {
+  background-color: #DC291E;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(/bancaInternet/css/PIE.htc);
+  color: #fff;
+  font: lighter 11px Ubuntu, Tahoma, Arial;
+  line-height: 1;
+  padding: 5px 0;
+  width: 140px;
+  height: 23px;
+}
+.large:hover {
+    background-color: #990000;
+    cursor: pointer;
+}
+.large:active {
+    background-color: #7777B0;
+}	
+.acciones {
+  background-color: #00718F;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(/bancaInternet/css/PIE.htc);
+  color: #fff;
+  font: lighter 11px Ubuntu, Tahoma, Arial;
+  line-height: 1;
+  padding: 5px 0;
+  width: 140px;
+  height: 23px;
+}
+.acciones:hover {
+	background-color: #004F7D;
+	cursor: pointer;
+}
+.acciones:active {
+	background-color: #7777B0;
+}
+
+.accionesInactivo {
+  background-color: #e5e5e5;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url(/bancaInternet/css/PIE.htc);
+  color: #999999;
+  font: lighter 11px Ubuntu, Tahoma, Arial;
+  line-height: 1;
+  padding: 5px 0;
+  width: 140px;
+  height: 23px;
+}
+
+.inputFile {
+	width: 85px;
+	height: 22px;
+	background: url("../imagenes/btn/file.png") 0 0 no-repeat;
+	background-position: right;
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+}
+
+.inputFile:hover {
+	width: 85px;
+	height: 22px;
+	background: url("../imagenes/btn/file1.png") 0 0 no-repeat;
+	background-position: right;
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+}
+
+.inputFileIE {
+	width: 87px;
+	height: 24px;
+	background: url("../imagenes/btn/file.png") 0 0 no-repeat;
+	background-position: right;
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+}
+
+.inputFileIE:hover {
+	width: 87px;
+	height: 24px;
+	background: url("../imagenes/btn/file1.png") 0 0 no-repeat;
+	background-position: right;
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+}
+
+.acciones-new {
+	background-color: #fff;
+	border: 1px solid #d81e05;
+	color: #d81e05;
+	transition: color .2s ease-in-out,background-color .2s ease-in-out;
+}
+
+.acciones-new:hover {
+	background-color: #f12106;
+	color: #fff;
+}
+
+.acciones-new:active {
+	background-color: #a61704;
+}

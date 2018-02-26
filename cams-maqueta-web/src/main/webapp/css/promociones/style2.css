@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('fontsco.css');
+
+h2.ofertas, h3.ofertas, p.ofertas, div.ofertas ,span.ofertas, form.ofertas, label {
+		margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; line-height: 17px;}
+
+h2.ofertas, h3.ofertas, p.ofertas , div.ofertas , span.ofertas, form.ofertas, label{ font-family: 'ScotiabankModernRegular', Arial, Helvetica, sans-serif; color: #65707b;  } /*body*/
+
+.clear{clear: both;}
+.sapcer{ padding-bottom:15px; padding-top:15px;}
+img.ofertas{ text-decoration:none; border:0px;  }	
+ul.ofertas { margin: 0; }
+li.ofertas {font-family: 'ScotiabankModernRegular', Arial, Helvetica, sans-serif; color: #65707b; }
+/* #Typography
+================================================== */
+
+	h1, h2.ofertas, h3.ofertas, h4, h5, h6 { font-weight: 300; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 32px; line-height: 28px; margin-bottom: 10px; }
+	h2.ofertas { font-size: 20px; line-height: 25px; margin-bottom: 10px; margin-top:5px;/*10px*/ text-align:justify; color:#0083A9;  }
+	h3 {
+	font-size: 22px;
+	line-height: 34px;
+	margin-bottom: 8px;
+}
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; margin-bottom: 5px; }
+	h6 { font-size: 14px; line-height: 21px; }
+ 
+	p.ofertas { margin:  color:#666e74; font-family: 'ScotiabankModernRegular', Arial, Helvetica, sans-serif; }
+	p.ofertas img.ofertas { margin: 0; }
+	
+/* #Links
+================================================== */
+
+	a.ofertas, a.ofertas:visited { color: #0082AB; text-decoration: none; outline: 0; }
+	a.ofertas:hover, a.ofertas:focus { color: #00617D; }
+	p.ofertas a.ofertas, p.ofertas a.ofertas:visited { line-height: inherit; }
+	a.ofertas:active { outline:none; opacity: 0.75; }
+
+/* #Forms
+================================================== */
+
+	form.ofertas {   margin:0px; padding:0px;}
+	input.ofertas,select.ofertas,textarea.ofertas { font-family: 'ScotiabankModernRegular',Arial, sans-serif;font-size: 13px;}
+
+	input.ofertas[type="text"], input.ofertas[type="password"], input.ofertas[type="email"], textarea.ofertas, select.ofertas {
+		border: 1px solid; padding: 3px 3px; margin: 0;
+		color: #999; min-height: 18px; 
+		margin-bottom: 15px;
+		-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.1) inset;
+		-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.1) inset;
+		box-shadow:  0px 1px 1px rgba(0,0,0,.1) inset; 
+		background: #fdfdfd;
+ }
+ 
+ input.ofertas[type="text"]:focus, input.ofertas[type="password"]:focus, input.ofertas[type="email"]:focus, textarea.ofertas:focus {
+		border: 1px solid #aaa; color: #444; background: #fff;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); 
+}
+
+label, legend { display: block; font-weight: bold; font-size: 13px;  }
+
+.control-group {
+	margin-top: 15px;
+}
+
+.control-label {
+	float: left;
+	width: 240px;
+	padding-bottom: 9px;
+	text-align: right;
+	padding-right: 5px;
+}
+.help-block { display: block;   font-size:10px;}
+.Terminos { display: block;  margin-bottom: 10px; font-size:11px;}
+ 
+.wrapperOfertas{
+	width: 680px;
+	font-size: 16px;
+	height: auto;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+
+#Home{
+	width: 680px;
+	font-size: 16px;
+ }
+ 
+ .ContainerLinea1{
+	float: left;
+	width: 637px;
+	border-top: 2px solid #0086B2;
+	border-left: 2px solid #0086B2;
+	height: 35px;
+}	
+.ContainerRed{
+	float: left;
+	width: 41px;
+}
+
+.ContainerLinea2{
+	border-right: 2px solid #0086B2;
+	border-left: 2px solid #0086B2;
+	height: 495px;
+}	
+
+.ContainerRedLeft{
+	float: left;
+	width: 41px;
+	height: 37px;
+}
+.ContainerLinea3{
+	float: left;
+	width: 637px;
+	height: 35px;
+	margin-top:0px;
+	border-bottom: 2px solid #0086B2;
+	border-right: 2px solid #0086B2;
+}
+
+.Info{width: 555px;margin: auto;}
+
+.Detalle{padding-left: 25%;}
+.Detalle ul.ofertas{  list-style-type:none; padding:0px; }
+.Detalle li.ofertas{ padding:3px;}
+ 
+.Botones{padding: 5px 0 0 0}
+.Botones ul.ofertas {  list-style:none; margin:0; padding:0;}
+.Botones li { margin:2px; padding:2px; float:right;}
+
+.LateralFoto{
+	width: 280px;
+	float: left;
+}
+.LateralTexto{
+	width: 255px;
+	float: left;
+	padding-left: 20px;
+}
+.LateralTexto ul.ofertas{  list-style-type:none; padding:0px; }
+
+.Clientes{
+	padding: 0px;
+	margin: auto;
+	width: 480px;
+}
+
+.bordeTurquesa{ border-right:1px solid #0087B0; border-left:1px solid #0087B0; }
+
+.LidtaImg{  padding:0px; }
+.LidtaImg ul.ofertas{  list-style-type:none; list-style-image:url('../../imagenes/promociones/home/icono-pestana.png'); background-repeat: no-repeat; }
+.LidtaImg li { height:30px;}
+
+/* ================= PLAZO FIJO MANCOMUNADO ================ */
+#divPromocionesManc {
+	padding: 0px;
+}
+#divPromocionesManc a.modalClose {
+	display: block;
+}
+#divPromocionesManc a.mdlBtnClose {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 30px;
+	line-height: 25px;
+	color: #CCC;
+}
+#divPromocionesManc a.mdlBtnClose:hover {
+	color: #777;
+}
+#divPromocionesManc div.headerModalManc {
+	line-height: 25px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+#divPromocionesManc div.bodyModalManc {
+	line-height: 15px;
+	padding-top: 5px;
+}
+#divPromocionesManc div.footerModalManc {
+	margin-top: 10px;
+	text-align: center;
+}
+#divPromocionesManc a.btnModal{
+	width: 90px;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0px 10px;
+	border-radius: 5px;
+}
+#divPromocionesManc a.btnModal.red{
+	background: #dc291e;
+	color: white;
+}
+#divPromocionesManc a.btnModal.gray{
+	background: #635f5f;
+	color: white;
+}
+

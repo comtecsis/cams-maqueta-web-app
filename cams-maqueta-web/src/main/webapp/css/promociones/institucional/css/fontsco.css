@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+font-family:"scotiaReg";
+font-style:normal;
+font-weight:normal;
+src:url("../fonts/scotiaReg/scotiaReg-webfont.eot");
+src:url("../fonts/scotiaReg/scotiaReg-webfont.eot?#iefix") format('embedded-opentype'),url("../fonts/scotiaReg/scotiaReg-webfont.woff") format('woff'),url("../fonts/scotiaReg/scotiaReg-webfont.ttf") format('truetype'),url("../fonts/scotiaReg/scotiaReg-webfont.svg#scotiaReg") format('svg')
+}
+
+@font-face{
+font-family:"scotiaBold";
+font-style:normal;
+font-weight:normal;
+src: url("../fonts/scotiaBold/scotiaBold-webfont.eot");
+src: url("../fonts/scotiaBold/scotiaBold-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/scotiaBold/scotiaBold-webfont.woff") format('woff'),url("../fonts/scotiaBold/scotiaBold-webfont.ttf") format('truetype'),url("../fonts/scotiaBold/scotiaBold-webfont.svg#scotiaBold") format('svg')}
+

@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+
+#idTablaDeudas {display:none;}
+/* overlay */
+#simplemodal-overlay {
+	background-color:#000; 
+	cursor:pointer;
+	height: 5000px !important;
+}
+/* container */
+#simplemodal-container {
+	height:370px; 
+	width:600px; 
+	background-color:#ffffff; 
+	border:1px solid #444; 
+	padding:12px;
+}
+
+/* #simplemodal-container .simplemodal-data {padding:2px;} */
+
+#idCapaOverlay {
+	opacity: 0.5; 	
+ 	height: 100%; 
+ 	outline: 0px none; 
+ 	width: 100%; 
+ 	overflow: visible; 
+ 	position:absolute; 
+ 	filter: alpha(opacity = 50);
+ 	top: 0px; left: 0px; 
+ 	z-index:1003; 
+ 	background-color:black
+ }
+ 
+#idContenedorResultado {
+	position: absolute; 
+	top: 65px; 
+	left: 50px; 
+	width: 530px; 
+	height: 260px; 
+	z-index: 1004; 
+	opacity:1; 
+	background-color:white;
+	border: 1px solid #000000;
+}
+
+#idContenedorTabla {
+	position: absolute; 
+	top: 67px; 
+	left: 52px; 
+	display: block; 
+	overflow-x: hidden; 
+	overflow-y: auto;
+	width: 528px; 
+	height: 215px; 
+	z-index: 1004; 
+	opacity:1; 
+	background-color:white;
+}
+
+#divAceptar {
+	position: absolute; 
+	top: 295px; 
+	left: 60px; 
+	display: block; 
+	z-index: 1004; 
+	opacity:1; 
+	background-color:white;
+}

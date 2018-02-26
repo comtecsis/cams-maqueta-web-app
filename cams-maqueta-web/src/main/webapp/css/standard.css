@@ -1,0 +1,1115 @@
+producto_campotexto
+
+@charset "utf-8";
+/* CSS Document formato de página */
+
+.tituloPrincipal {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.subtituloPrincipal {
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.textoMensaje {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.textoMensajeNegro {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.textoMensajeCenter {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoMensajeCenterBorder {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.textoMensajeNormal {
+    font-size: 13px;
+    font-weight: normal;
+    color: #66594D;
+}
+
+.textoMensajeNormalCenter {
+    font-size: 13px;
+    font-weight: normal;
+    color: #66594D;
+    text-align: center;
+}
+
+.textoMensajeCenterNegro {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoMensajeCenterBlanco {
+    font-size: 13px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 12px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.textoApendice {
+    font-size: 9px;
+    color: #66594D;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.espacioGeneral {
+    height: 18px;
+}
+
+.espacioGeneralBorder {
+    height: 18px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+}
+
+.borderBolsa {
+    border: 1px solid #FFFFFF;
+}
+
+.estiloLista {
+    padding-left: 30px;
+}
+
+.subtituloGeneral {
+    font-size: 12px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    height: 18px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.subtituloGeneralNoTop {
+    font-size: 12px;
+    height: 18px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.subtituloGeneralNoTopBlanco {
+    font-size: 12px;
+    height: 18px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    padding-left: 10px;
+    padding-top: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.subtituloGeneralConfir {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    height: 9px;
+}
+.containerTop {
+    width: 100%;
+    height: 60px;
+}
+.containerTopText {
+    width: 100%;
+}
+.borderGrey {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-bottom: 7px;
+    padding-bottom: 0px;
+}
+.subtituloGeneralCartera {
+    vertical-align: top;
+    font-size: 12px;
+    height: 18px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.subtituloGeneralCarteraDerecha {
+    vertical-align: top;
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    color: #66594D;
+    text-align: right;
+    height: 18px;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+.adelantoSueldoBanner {
+    color: rgb(112, 184, 220);
+    border: solid 1px #3399cc;
+    border-radius: 5px;
+    height: 28px;
+    margin-top: 15px;
+    padding: 1px;
+    width: auto;
+    float: right;
+    pointer-events: none;
+    overflow: hidden;
+    width: 95%;
+}
+.desembolsoLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+.adelantosueldoleft {
+    float: left;
+}
+.adelantosueldoright {
+    float: left;
+    width: 100%;
+    margin-bottom: -35px;
+}
+.adelantoSueldoButtonContainer {
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.subtituloGeneralNoBorder {
+    font-size: 12px;
+    height: 18px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    padding-left: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.cabeceraSeparador {
+    height: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.cabeceraSeparadorIzquierda {
+    padding-left: 10px;
+}
+
+.cabeceraAltoEmpresa {
+    height: 96px;
+}
+
+.cabeceraAltoTVMC {
+    height: 56px;
+}
+
+.cabeceraAnchoEmpresa {
+    width: 300px;
+}
+
+.cabeceraAltoPersona {
+    height: 70px;
+}
+
+.cabeceraAnchoPersona {
+    width: 230px;
+}
+
+.cabeceraAltoTCVisa {
+    height: 70px;
+}
+
+.cabeceraAnchoTCVisa {
+    width: 250px;
+}
+
+.cabeceraAnchoCarPunt {
+    width: 120px;
+}
+
+.cabeceraAltoMultipago {
+    height: 51px; /*45px*/
+}
+
+.cabeceraAnchoMultipago {
+    width: 150px;
+}
+
+.cabeceraAnchoFecha {
+    width: 150px;
+}
+
+.cabeceraAnchoZona {
+    width: 100px;
+}
+
+.cabeceraAltoTW {
+    height: 70px; /*55px*/
+}
+
+.cabeceraAnchoTW {
+    width: 350px;
+}
+
+.subtitulo {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    background-color: #e5e5e5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    border-right: 1px solid #FFFFFF;
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subtituloCenter {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    background-color: #e5e5e5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    border-right: 1px solid #FFFFFF;
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitulo19 {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    background-color: #e5e5e5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    border-right: 1px solid #FFFFFF;
+    height: 19px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subtituloCenter19 {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    background-color: #e5e5e5;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    border-right: 1px solid #FFFFFF;
+    height: 19px;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tituloCategoria {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    font-weight: bold;
+}
+
+.tituloCategoriaLeft {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tituloCategoriaCenter {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tituloSubCategoria {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    font-weight: bold;
+}
+
+.textoCliente {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.textoPrincipal {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    border-bottom: 1px solid #E7E7E7;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.textoPrincipalNoPadding {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    border-bottom: 1px solid #E7E7E7;
+    font-weight: bold;
+}
+
+.textoPrincipalNBold {
+    font-size: 11px;
+    color: #66594D;
+    border-bottom: 1px solid #E7E7E7;
+    padding-left: 10px;
+}
+
+.textoPrincipalNBoldRight {
+    font-size: 11px;
+    color: #66594D;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.textoPrincipalNBoldNoBorder {
+    font-size: 11px;
+    color: #66594D;
+    padding-left: 10px;
+}
+
+.textoPrincipalNoBorder {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    border-bottom-width: thin;
+    border-bottom-color: #E7E7E7;
+    font-weight: bold;
+}
+
+.textoPrincipalChicoNoBorder {
+    font-size: 9px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    border-bottom-width: thin;
+    border-bottom-color: #E7E7E7;
+    font-weight: bold;
+}
+
+.textoPrincipalCenter {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    font-weight: bold;
+}
+
+.textoPrincipalCenterNBold {
+    font-size: 11px;
+    font-weight: normal;
+    color: #66594D;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+}
+
+.textoPrincipalDerecha {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.detalleNormalBold {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    text-align: left;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.detalleNormalTexArea {
+    width: 100%;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+}
+
+.detalleNormal {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalNoPadding {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.detalleNormalCenter13px {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalCenter13pxNoBorder {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalCenter {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalCenterNoBorder {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalRight {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: right;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalBox {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border-width: thin;
+    border-style: solid;
+    border-color: #E7E7E7;
+    vertical-align: middle;
+    width: auto;
+}
+
+.producto_campotexto {
+    font-size: 13px;
+    height: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ABAAAA;
+}
+
+.producto_campoArea {
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E7E7E7;
+}
+
+.detalleNormalNoBorder {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    border-width: thin;
+    border-color: #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleNormalNoBorderRight {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: right;
+    border-width: thin;
+    border-color: #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.detalleInput {
+    border: none;
+}
+
+.detalleNormalNegrita {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    text-align: left;
+    font-weight: bold;
+}
+
+.detalleNormalCentrado {
+    font-size: 11px;
+    font-weight: normal;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    text-align: center;
+}
+
+.glosaNormal {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    color: #777777;
+}
+
+.comentariosFinales {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.comentariosFinalesCenter {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.comentariosFinalesNoTop {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+}
+
+.comentariosFinalesIzquierda {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.comentariosFinalesDerecha {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.comentariosFinalesApertura {
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.alineacionBottom {
+    vertical-align: bottom;
+}
+
+.espacioGeneral10px {
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Considerar 5 + otro Top de estilo x */
+.espacioGeneral5px {
+    height: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.txtblanco {
+    font-size: 11px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.txtblancoCarrito {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.txtblancoCarritoLink {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: left;
+    font-weight: bold;
+}
+
+.txtDetalle {
+    font-size: 11px;
+    font-weight: normal;
+    color: #66594D;
+}
+
+.numero {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: right;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.numeroCenter {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.combo {
+    font-size: 11px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    text-align: right;
+}
+
+.negativo {
+    font-size: 11px;
+    font-weight: normal;
+    color: #CC0000;
+    text-align: right;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.negativoCenter {
+    font-size: 11px;
+    font-weight: normal;
+    color: #CC0000;
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.tituloNombre {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #000000;
+    font-weight: bold;
+}
+
+.rojoBold {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    color: #FF0000;
+    border-bottom: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+
+}
+
+.textoSecundario {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    font-weight: bold;
+}
+
+.textoSecundarioRight {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    text-align: right;
+    font-weight: bold;
+}
+
+.textoSecundarioCenter {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textoSecundarioBorder {
+    font-size: 10px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #66594D;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+    font-weight: bold;
+}
+
+.textoSecundarioNormal {
+    font-size: 10px;
+    font-weight: normal;
+    color: #66594D;
+}
+
+.pie {
+    font-size: 10px;
+    color: #66594D
+}
+
+.rojo {
+    font-size: 11px;
+    color: #FF0000;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.rojoNPadding {
+    font-size: 11px;
+    color: #FF0000;
+    text-align: left;
+
+}
+
+.rojoDerecha {
+    font-size: 11px;
+    color: #FF0000;
+    text-align: right;
+}
+
+.rojoCenter {
+    font-size: 11px;
+    color: #FF0000;
+    text-align: center;
+}
+
+.textoBoton {
+    font-size: 11px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #000000;
+    font-weight: bold;
+}
+
+.textoMarquee {
+    font-size: 10px;
+    font-weight: normal;
+    color: #E0D6B5;
+}
+
+.headline {
+    font-size: 12px;
+    font-family: UbuntuBold, Tahoma, Arial;
+    color: #666699;
+    font-weight: bold;
+}
+
+.fondoLinea {
+    background-color: #ECECDF;
+}
+
+.fondoDatos {
+    background-color: #f7f3fa;
+    height: 24px;
+}
+
+.fondoDatos18 {
+    background-color: #f7f3fa;
+    height: 18px;
+}
+
+.fondoTituloPrincipal {
+    background-color: #E7E7E7;
+}
+
+.fondoSubtituloPrincipal {
+    background-color: #CCCC9A;
+}
+
+.fondoSubtitulo {
+    background-color: #66594D;
+}
+
+.generico {
+    font-size: 11px;
+    font-weight: normal;
+    color: #66594D;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.generico a {
+    font-size: 11px;
+    font-weight: normal;
+    color: #66594D;
+    text-decoration: underline;
+}
+
+.generico a:hover {
+    text-decoration: underline;
+    color: #66594D;
+}
+
+a.navLink:link {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.navLink:active {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.navLink:visited {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.navLink:hover {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.nav:link {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.nav:active {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.nav:visited {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.nav:hover {
+    color: #66594D;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.navRojo:link {
+    color: #CC0000;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+a.navRojo:visited {
+    color: #CC0000;
+}
+
+a.navRojo:hover {
+    color: #CC0000;
+}
+
+.enlace A {
+    font-size: 13px;
+    font-weight: normal;
+    color: #093A80;
+}
+
+.enlace A:hover {
+    font-size: 13px;
+    font-weight: normal;
+    color: #FFFFFF;
+    BACKGROUND-COLOR: #264B94;
+    text-decoration: none;
+}
+
+.linkBlanco A {
+    font-size: 11px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.puntosBottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E7E7;
+}
+
+.botonCondicionLeft {
+    text-align: left;
+    padding-left: 17px;
+    padding-top: 5px;
+}
+
+.botonCondicionRight {
+    text-align: right;
+    padding-left: 17px;
+    padding-top: 5px;
+}
+
+.celdaBordeMarron {
+    border: 1px solid #CCCC9A;
+    font-size: 11px;
+    color: #66594D;
+}
+
+.bordeRojo {
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F00;
+}
+
+.bordeCelda {
+    font-size: 11px;
+    font-weight: normal;
+    border: 1px solid #E7E7E7;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    bottom: 35%;
+}
+
+.wrapperNoCabecera {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    bottom: 35%;
+}
+
+div.bottomRight {
+    display: scroll;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
+
+.fondoDatosLila {
+    background-color: #9260a6;
+    height: 24px;
+}
+
+.negrita {
+    font-family: UbuntuBold;
+    font-weight: bold;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.textoActivo {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: right;
+    color: #AAAAAA;
+}
